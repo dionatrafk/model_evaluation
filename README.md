@@ -1,4 +1,4 @@
-**Informações**
+# Informações
 
 As pastas:
 -  **http_requests_nasa** 
@@ -24,5 +24,6 @@ Os algoritmos abaixo, estão disponíveis como alternativa para  execução on-l
 - **MLP_exec.ipynb**
 - **GRU_exec.ipynb**
 - **ARIMA_exec.ipynb**
+
 Correspondem ao código fonte de cada modelo de Aprendizado de Máquina. Estão no formato semelhante ao Jupyter notebook. 
 Ao acessar a página do arquivo, selecione *Open in Colab*, para acessar o modelo em modo de execução no ambiente do *Google Colaboratory*.
