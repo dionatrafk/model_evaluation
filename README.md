@@ -8,7 +8,7 @@ Contém os datasets da NASA e Wikipédia correspondentes aos intervalos de previ
 
 - **algorithms**
 
-Contém os códigos fontes dos modelos de Aprendizado de Máquina (MLP, GRU, ARIMA) e seus otimizadores de hiperparâmetros (*Grid Search* (**grid_search.py**), *Tree of parzen estimators (TPE)* (**hypeas_gru.py **e **hypeas_mlp.py**) para execução local.
+Contém os códigos fontes dos modelos de Aprendizado de Máquina (MLP, GRU, ARIMA) e seus otimizadores de hiperparâmetros (*Grid Search* (**grid_search.py**), *Tree of parzen estimators (TPE)* (**hypeas_gru.py ** e **hypeas_mlp.py**) para execução local.
 
 Para a execução dos algoritmos serão necessários um ambiente com as seguintes bibliotécas abaixo:
 
