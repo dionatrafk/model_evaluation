@@ -7,6 +7,7 @@ As pastas:
 Contém os datasets da NASA e Wikipédia correspondentes aos intervalos de previsão. Por exemplo, trace60.csv contém os dados necessários para realizar previsões para os próximos 60 minutos.
 
 - **algorithms**
+
 Contém os códigos fontes dos modelos de Aprendizado de Máquina (MLP, GRU, ARIMA) e seus otimizadores de hiperparâmetros (*Grid Search* (**grid_search.py**), *Tree of parzen estimators (TPE)* (**hypeas_gru.py **e **hypeas_mlp.py**) para execução local.
 
 Para a execução dos algoritmos serão necessários um ambiente com as seguintes bibliotécas abaixo:
