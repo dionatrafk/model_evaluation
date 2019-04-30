@@ -6,7 +6,7 @@ As pastas:
 
 Contém os datasets da NASA e Wikipédia correspondentes aos intervalos de previsão. Por exemplo, trace60.csv contém os dados necessários para realizar previsões para os próximos 60 minutos.
 
-Os dados originais do dataset Wikipédia: http://www.wikibench.eu/wiki/2007-09/
+Dados originais do dataset Wikipédia: http://www.wikibench.eu/wiki/2007-09/
 
 - **algorithms**
 
