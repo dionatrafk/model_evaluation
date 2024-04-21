@@ -1,4 +1,4 @@
-Comandos para execução dos algoritmos com datasets disponíveis no diretório /http_requests_nasa/ 
+Commands for executing algorithms with datasets available in the directory /http_requests_nasa/ 
 
 python hypeas_mlp.py trace1.csv 
 python hypeas_mlp.py trace5.csv 
