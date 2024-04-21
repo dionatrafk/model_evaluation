@@ -1,21 +1,21 @@
 # Informações
 
-As pastas:
+The folders:
 -  **http_requests_nasa** 
 - **http_requests_wikipedia**
 
-Contém os datasets da NASA e Wikipédia correspondentes aos intervalos de previsão. Por exemplo, trace60.csv contém os dados necessários para realizar previsões para os próximos 60 minutos.
+Contains the NASA and Wikipedia datasets corresponding to the prediction intervals. For example, trace60.csv contains the data needed to make predictions for the next 60 minutes.
 
-Dados originais dos datasets:
+Original dataset:
  - Wikipédia: http://www.wikibench.eu/wiki/2007-09/
  - NASA: http://ita.ee.lbl.gov/html/contrib/
 
 
 - **algorithms**
+  
+Contains the source codes of Machine Learning models (MLP, GRU, ARIMA) and their hyperparameter optimizers (*Grid Search* (**grid_search.py**), *Tree of parzen estimators (TPE)* (**hypeas_gru .py** and **hypeas_mlp.py**) for local execution.
 
-Contém os códigos fontes dos modelos de Aprendizado de Máquina (MLP, GRU, ARIMA) e seus otimizadores de hiperparâmetros (*Grid Search* (**grid_search.py**), *Tree of parzen estimators (TPE)* (**hypeas_gru.py** e **hypeas_mlp.py**) para execução local.
-
-Para a execução dos algoritmos serão necessários um ambiente com as seguintes bibliotécas abaixo:
+To execute the algorithms, you will need an environment with the following libraries below:
 
 - **Keras** https://keras.io/
 - **SKlearn** https://scikit-learn.org
@@ -25,10 +25,10 @@ Para a execução dos algoritmos serão necessários um ambiente com as seguinte
 - **Pandas** https://pandas.pydata.org/
 - **Numpy** http://www.numpy.org/
 
-Os algoritmos abaixo, estão disponíveis como alternativa para  execução on-line:
+The algorithms below are available as an alternative for online execution:
 - **MLP_exec.ipynb**
 - **GRU_exec.ipynb**
 - **ARIMA_exec.ipynb**
 
-Correspondem ao código fonte de cada modelo de Aprendizado de Máquina. Estão no formato semelhante ao Jupyter notebook. 
-Ao acessar a página do arquivo, selecione *Open in Colab*, para acessar o modelo em modo de execução no ambiente do *Google Colaboratory*.
+They correspond to the source code of each Machine Learning model. They are in a similar format to the Jupyter notebook.
+When accessing the file page, select *Open in Colab* to access the model in execution mode in the *Google Colaboratory* environment.
